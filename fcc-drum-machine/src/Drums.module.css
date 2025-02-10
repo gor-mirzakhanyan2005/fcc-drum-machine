@@ -17,7 +17,7 @@
     z-index: 2;
 }
 
-.keyContainer{
+#display{
     margin-top: -80px;
     display: flex;
     justify-content: space-around;
@@ -28,7 +28,11 @@
     gap: 30px;
 }
 
-.drumKey{
+.drum-pad{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 40px;
     width: 125px;
     height: 125px;
     background-color: rgb(49, 49, 49);
@@ -39,7 +43,8 @@
     box-shadow: -0.35px 5px 10px red;
 }
 
-#drumKey1:active{
+#drumKey1Active{
+    color: black;
     background: rgb(255,255,255);
 
     background: radial-gradient(
@@ -53,7 +58,8 @@
 #drumKey2{
     box-shadow: -0.35px 5px 10px blue;
 }
-#drumKey2:active{
+#drumKey2Active{
+    color: black;
     background: rgb(255,255,255);
 
     background: radial-gradient(
@@ -67,7 +73,8 @@
 #drumKey3{
     box-shadow: -0.35px 5px 10px rgb(0, 255, 0);
 }
-#drumKey3:active{
+#drumKey3Active{
+    color: black;
     background: rgb(255,255,255);
 
     background: radial-gradient(
@@ -81,7 +88,8 @@
 #drumKey4{
     box-shadow: -0.35px 5px 10px rgb(255, 200, 0);
 }
-#drumKey4:active{
+#drumKey4Active{
+    color: black;
     background: rgb(255,255,255);
 
     background: radial-gradient(
@@ -96,7 +104,8 @@
 #drumKey5{
     box-shadow: -0.35px 5px 10px rgb(255, 0, 251);
 }
-#drumKey5:active{
+#drumKey5Active{
+    color: black;
     background: rgb(255,255,255);
 
     background: radial-gradient(
@@ -110,7 +119,8 @@
 #drumKey6{
     box-shadow: -0.35px 5px 10px rgb(255, 255, 255);
 }
-#drumKey6:active{
+#drumKey6Active{
+    color: black;
     background: rgb(255,255,255);
 
     background: radial-gradient(
@@ -124,7 +134,8 @@
 #drumKey7{
     box-shadow: -0.35px 5px 10px rgb(255, 115, 0);
 }
-#drumKey7:active{
+#drumKey7Active{
+    color: black;
     background: rgb(255,255,255);
 
     background: radial-gradient(
@@ -138,7 +149,8 @@
 #drumKey8{
     box-shadow: -0.35px 5px 10px rgb(0, 255, 238);
 }
-#drumKey8:active{
+#drumKey8Active{
+    color: black;
     background: rgb(255,255,255);
 
     background: radial-gradient(
@@ -152,7 +164,8 @@
 #drumKey9{
     box-shadow: -0.35px 5px 10px rgb(156, 255, 248);
 }
-#drumKey9:active{
+#drumKey9Active{
+    color: black;
     background: rgb(255,255,255);
 
     background: radial-gradient(
@@ -161,4 +174,9 @@
     rgba(49,49,49,1) 100%);
 
     box-shadow: 0px 0px 20px rgb(156, 255, 248);
+}
+
+#volume{
+    position: absolute;
+    margin-top: 490px;
 }

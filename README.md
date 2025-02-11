@@ -1,1 +1,2 @@
-# fcc-drum-machine
+# freeCodeCamp Drum Machine Project
+## by Gor Mirzakhanyan
